@@ -1,7 +1,7 @@
 workflows:
   android-build:
     name: Build Android APK
-    instance_type: linux_x86_24
+    instance_type: linux
     environment:
       java: 17
     scripts:
